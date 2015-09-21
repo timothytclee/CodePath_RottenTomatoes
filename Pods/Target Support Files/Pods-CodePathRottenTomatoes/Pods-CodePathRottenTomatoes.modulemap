@@ -1,0 +1,6 @@
+framework module Pods_CodePathRottenTomatoes {
+  umbrella header "Pods-CodePathRottenTomatoes-umbrella.h"
+
+  export *
+  module * { export * }
+}
