@@ -2,9 +2,14 @@
 
 This is a movies app displaying box office and top rental DVDs using the [Rotten Tomatoes API](http://developer.rottentomatoes.com/docs/read/JSON).
 
-Time spent: 15
+Time spent: 15hrs
 
 ### Features
+- I used container views to separate the DVD and BoxOffice tabs.  Not sure if this is the most efficient way to implement.
+- Navigation bar is customized for each tab
+- Images fade in using animation/alpha, replacing low-res thumbnail images, but I wasn't sure how to deal with the caching
+- Spent some time investigating but I couldn't figure out how to add search functionality (beyond a basic search box and delegate)'
+- First screenshot shows networking error with wifi turned off, then wifi is turned on to walk through full functionality
 
 #### Required
 
@@ -26,7 +31,7 @@ Time spent: 15
 
 
 ### Walkthrough
-![Video Walkthrough](http://i.imgur.com/9d4fXIm.gif)
+![Video Walkthrough](https://raw.githubusercontent.com/timothytclee/CodePath_RottenTomatoes/master/CodePath_RottenTomatoes2.gif)
 
 Credits
 ---------
